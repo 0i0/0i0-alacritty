@@ -1,0 +1,1 @@
+# 0i0's Alacritty Config
