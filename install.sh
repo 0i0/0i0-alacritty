@@ -20,5 +20,4 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 defaults -currentHost write -globalDomain AppleFontSmoothing -int 2
 
 # Settings
-mkdir -p $HOME/.config/alacritty/
-cp alacritty.yml $HOME/.config/alacritty/alacritty.yml
+ln -s $PWD $HOME/.config/alacritty
