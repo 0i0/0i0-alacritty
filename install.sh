@@ -11,10 +11,6 @@ cd alacritty
 # We also change default terminal to alacritty in ~/.tmux.conf to use this
 sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
 
-# clean
-cd ..
-rm -rf alacritty
-
 # Enable smoothing on mac
 defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
 defaults -currentHost write -globalDomain AppleFontSmoothing -int 2

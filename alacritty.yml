@@ -96,8 +96,10 @@ key_bindings:
   # Move one tab left.
   - { key: LBracket, mods: Command|Shift, chars: "\x02\x70" }
 
-  - { key: Left,     mods: Command|Shift, chars: "\x1bOH" } # pane left
-  - { key: Right,    mods: Command|Shift, chars: "\x1bOF" } # pane right
+  - { key: Left,     mods: Command|Shift, chars: "\x02\x1b\x5b\x44" } # pane left
+  - { key: Right,    mods: Command|Shift, chars: "\x02\x1b\x5b\x43" } # pane right
+  - { key: Up,     mods: Command|Shift, chars: "\x02\x1b\x5b\x41" } # pane up
+  - { key: Down,    mods: Command|Shift, chars: "\x02\x1b\x5b\x42" } # pane dawn
   # Move to tab x.
   - { key: Key1,     mods: Command,       chars: "\x02\x31" }
   - { key: Key2,     mods: Command,       chars: "\x02\x32" }
