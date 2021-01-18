@@ -96,10 +96,6 @@ key_bindings:
   # Move one tab left.
   - { key: LBracket, mods: Command|Shift, chars: "\x02\x70" }
 
-  - { key: Left,     mods: Command|Shift, chars: "\x02\x1b\x5b\x44" } # pane left
-  - { key: Right,    mods: Command|Shift, chars: "\x02\x1b\x5b\x43" } # pane right
-  - { key: Up,     mods: Command|Shift, chars: "\x02\x1b\x5b\x41" } # pane up
-  - { key: Down,    mods: Command|Shift, chars: "\x02\x1b\x5b\x42" } # pane dawn
   # Move to tab x.
   - { key: Key1,     mods: Command,       chars: "\x02\x31" }
   - { key: Key2,     mods: Command,       chars: "\x02\x32" }
@@ -110,6 +106,13 @@ key_bindings:
   - { key: Key7,     mods: Command,       chars: "\x02\x37" }
   - { key: Key8,     mods: Command,       chars: "\x02\x38" }
   - { key: Key9,     mods: Command,       chars: "\x02\x39" }
+
+  # Move between panes.
+  - { key: Left,     mods: Command|Shift, chars: "\x02\x1b\x5b\x44" } 
+  - { key: Right,    mods: Command|Shift, chars: "\x02\x1b\x5b\x43" } 
+  - { key: Up,     mods: Command|Shift, chars: "\x02\x1b\x5b\x41" }
+  - { key: Down,    mods: Command|Shift, chars: "\x02\x1b\x5b\x42" } 
+
   # Mac - General Quality of Life Improvements
   - { key: N,         mods: Command,      action: SpawnNewInstance       }
   - { key: Space,     mods: Alt,          chars: " "                     }
