@@ -60,7 +60,7 @@ font:
   glyph_offset:
    x: 0
    # Keeping this as half of offset to vertically align the text in cursor
-   y: 0
+   y: 2
 
   # Better font rendering for mac
   use_thin_strokes: true

@@ -1,10 +1,5 @@
 #!/bin/bash
-
 brew install --cask alacritty
-
-# clone
-git clone https://github.com/alacritty/alacritty.git
-cd alacritty
 
 # Install terminfo globally, I'm thinking this is to make the awesome
 # true colors & italic fonts work

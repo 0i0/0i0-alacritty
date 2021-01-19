@@ -6,5 +6,5 @@ Tmux
 
 ## Install
 ```
-.install.sh
+./install.sh
 ```
