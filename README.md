@@ -2,7 +2,8 @@
 
 ## Deps
 
-Tmux
+homebrew
+tmux
 
 ## Install
 ```
