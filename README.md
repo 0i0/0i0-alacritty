@@ -1,9 +1,11 @@
 # 0i0's Alacritty Config
+![Screen](https://i.imgur.com/rcAh23j.png)
 
 ## Deps
 
-homebrew
-tmux
+- Package Manager: homebrew
+- Terminal multiplexer: tmux
+- Font: iosveka SS08
 
 ## Install
 ```

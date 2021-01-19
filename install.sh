@@ -1,5 +1,7 @@
 #!/bin/bash
 brew install --cask alacritty
+brew tap homebrew/cask-fonts
+brew install --cask font-iosevka-ss08
 
 # clone
 git clone https://github.com/alacritty/alacritty.git
